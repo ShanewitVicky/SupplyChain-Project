@@ -1,0 +1,17 @@
+******** Reference Links************
+http://www.codebind.com/android-tutorials-and-examples/android-mysql-database-tutorial-android-login-php-mysql/
+https://medium.com/@parsaniahardik/generate-qr-code-using-zxing-android-studio-programmatically-b2b2dc58a383
+https://stackoverflow.com/questions/43754378/how-to-cut-generate-time-to-generate-qr-code-using-zxing
+https://www.simplifiedcoding.net/android-spinner-example-to-load-json-using-volley/
+https://www.simplifiedcoding.net/android-json-parsing-tutorial/
+https://developer.android.com/training/permissions/requesting
+GeoCoding:
+https://www.youtube.com/watch?v=O5pxlyyyvbw
+
+*********Video Links****************
+MySQL Creation:
+https://www.youtube.com/watch?v=HK515-8-Q_w
+Integrating with Android:
+https://www.youtube.com/watch?v=eldh8l8yPew
+User Registration:
+https://www.youtube.com/watch?v=age2l7Rrwtc

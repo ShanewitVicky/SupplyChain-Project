@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shane.expense.AddProduct">
+
+    <LinearLayout
+        android:layout_width="351dp"
+        android:layout_height="489dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <EditText
+            android:id="@+id/txtProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Product Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txtPrdDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Production Date(YYYY/MM/DD)"
+            android:inputType="date"
+            tools:hint="Production Date(YYYY/MM/DD)" />
+
+        <EditText
+            android:id="@+id/txtExpDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Expiration Date(YYYY/MM/DD)"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/txtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Location"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnCreateProduct"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="Create Product" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Reset" />
+
+        <ImageView
+            android:id="@+id/QRPlaceHolder"
+            android:layout_width="match_parent"
+            android:layout_height="257dp"
+            app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
